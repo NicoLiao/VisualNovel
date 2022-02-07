@@ -167,5 +167,5 @@ function millionaire() {
 
     document.querySelector('.textbox').innerHTML = "without distraction in life, you successfully get your doctor degree and created a company that eventually makes you the top millionaire"
     document.querySelector('.next').style.display = "none"
-
+//hi biwbiwbwi
 }
