@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg {
+    width: 100%;
+    height: 65vh;
+    background-image: url(picture/schoolbg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 1px black;
+
+}
+.story {
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(255, 129, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textbox {
+    width: 80%;
+    height: 70%;
+    background-color: rgb(255, 161, 216);
+    border-radius: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 150%;
+}
+.start {
+    background-color: rgb(182, 234, 255);
+    width: 50%;
+    height: 50%;
+    color: white;
+    text-shadow: 2px 1px black;
+    border-color: white;
+    font-size: 150%;
+
+}
+.option1, .option2 {
+    display: none;
+    color: white;
+    text-shadow: 2px 1px black;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(182, 234, 255);
+    font-size: 150%;
+
+
+}
+.next {
+    color: white;
+    text-shadow: 2px 1px black;
+    border: 1px white solid;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 234, 255);
+    font-size: 150%;
+}
+#next {
+    display: none;
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    margin-left: 60%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.name {
+    color: white;
+    font-size: 150%;
+    text-shadow: 2px 1px black;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
